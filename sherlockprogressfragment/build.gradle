@@ -7,7 +7,7 @@ dependencies {
 
 android {
     compileSdkVersion 19
-    buildToolsVersion '19.0.3'
+    buildToolsVersion '21.1.2'
 
     defaultConfig {
         minSdkVersion 7
@@ -24,4 +24,4 @@ android {
 }
 
 // Used to push in maven
-apply from: '../maven_push.gradle'
+//apply from: '../maven_push.gradle'
